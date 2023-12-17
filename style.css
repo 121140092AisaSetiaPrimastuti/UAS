@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background: #eeaeca;
+    background: -moz-linear-gradient(138deg, #eeaeca 0%, #239ff5 100%);
+    background: -webkit-linear-gradient(138deg, #eeaeca 0%, #239ff5 100%);
+    background: linear-gradient(138deg, #eeaeca 0%, #239ff5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#239ff5",GradientType=1);
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+}
+table th {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  line-height: 26px;
+  padding: 18px 30px;
+}
+table thead tr {
+  background: #2b2d32;
+}
+table td {
+  padding: 30px 30px 31px;
+  font-weight: 300;
+  font-size: 16px;
+  color: black-2;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+table tbody tr:nth-child(odd) {
+  background: #fff;
+}
+table tbody tr:nth-child(even) {
+  background: #c2c2c2;
+}
+
+.table__wrapper {
+  padding-top: 40px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase;
+  width: 170px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  color:#fff;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn__active:hover {
+  border: 2px solid #4ed99c;
+}
+.btn__active {
+  background: #4ed99c;
+}
+.btn__pledged:hover  {
+  border: 2px solid #f14044;
+}
+.btn__pledged{
+  background: #f14044;
+}
+
+
+#cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Tambahkan shadow untuk tampilan yang lebih menarik */
+}
+
+#cookie-notice button {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Tambahkan radius border untuk tampilan yang lebih bulat */
+  font-weight: bold; /* Tambahkan ketebalan teks */
+  transition: background-color 0.3s; /* Efek transisi saat hover */
+}
+
+#cookie-notice button:hover {
+  background-color: #27ae60; /* Warna latar berubah saat dihover */
+}
+
